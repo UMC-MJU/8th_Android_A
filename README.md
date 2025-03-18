@@ -38,7 +38,7 @@ Copyright © Sojung Park (Bei) All rights reserved.
 
 
 ## 🍀 Members
-| [![텍스트](없음)](없음) | [![텍스트](https://avatars.githubusercontent.com/u/162123273?v=4)](https://github.com/jyjbn1789) |
+| [![텍스트](https://avatars.githubusercontent.com/u/201415904?v=4)](https://github.com/miyeon04) | [![텍스트](https://avatars.githubusercontent.com/u/162123273?v=4)](https://github.com/jyjbn1789) |
 |:---:|:---:|
 | 면/이미연 | 딘/전유진 |
 
