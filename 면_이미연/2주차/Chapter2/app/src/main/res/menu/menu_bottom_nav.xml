@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_home"
+        android:title="홈"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/fragment_location"
+        android:title="동네지도"
+        android:icon="@drawable/ic_location"/>
+    <item
+        android:id="@+id/fragment_chat"
+        android:title="채팅"
+        android:icon="@drawable/ic_chat"/>
+    <item
+        android:id="@+id/fragment_person"
+        android:title="나의 당근"
+        android:icon="@drawable/ic_person"/>
+</menu>
