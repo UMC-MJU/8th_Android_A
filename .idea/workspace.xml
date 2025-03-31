@@ -23,7 +23,53 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="270bd384-0fd4-46be-af88-52b55e8b0fe6" name="Changes" comment="" />
+    <list default="true" id="270bd384-0fd4-46be-af88-52b55e8b0fe6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/java/com/example/mission1/CalendarFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/java/com/example/mission1/MypageFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/java/com/example/mission1/SplashActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/java/com/example/mission1/WriterFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/anim/slide_in_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/anim/slide_out_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/color/nav_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/background_paper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/ic_bell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/ic_calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/ic_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/ic_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/layout/fragment_calendar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/layout/fragment_mypage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/layout/fragment_write.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din" beforeDir="false" afterPath="$PROJECT_DIR$/UMC_din" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UMC_din/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UMC_din/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UMC_din/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/UMC_din/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UMC_din/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/src/main/java/com/example/mission1/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UMC_din/app/src/main/java/com/example/mission1/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/src/main/java/com/example/mission1/ResultActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/UMC_din/app/src/main/java/com/example/mission1/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/angry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/enjoy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/happy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/nervous.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/src/main/res/drawable/normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/app/src/main/res/layout/activity_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UMC_din/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMC_din/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/UMC_din/gradle/libs.versions.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +131,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UMC_Din" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProblemsViewState">
@@ -109,9 +155,9 @@
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "딘/전유진",
+    "git-widget-placeholder": "week2-yujin",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Public/Mission1/app/src/main/res/drawable",
+    "last_opened_file_path": "C:/Users/Public/Mission1",
     "project.structure.last.edited": "Variables",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
@@ -196,9 +242,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
