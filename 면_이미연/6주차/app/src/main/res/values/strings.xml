@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">FLO-clone</string>
+    <string name="title_home">홈</string>
+    <string name="title_look">둘러보기</string>
+    <string name="title_search">검색</string>
+    <string name="title_locker">보관함</string>
+
+    <string name="main_miniplayer_title_tv">라일락</string>
+    <string name="main_miniplayer_singer_tv">아이유 (IU)</string>
+    <string name="main_previous_btn">이전 곡 버튼</string>
+    <string name="main_miniplayer_btn">재생 버튼</string>
+    <string name="main_pause_btn">일시정지 버튼</string>
+    <string name="main_next_btn">다음 곡 버튼</string>
+    <string name="main_go_list_btn">재생목록 버튼</string>
+
+    <string name="home_panel_background_iv">홈 배경 이미지</string>
+    <string name="home_panel_btn_mike_iv">음성 검색 버튼</string>
+    <string name="home_panel_btn_ticket_iv">티켓 버튼</string>
+    <string name="home_panel_btn_setting_iv">설정 버튼</string>
+    <string name="home_panel_title_tv">포근하게 덮어주는 꿈의\n목소리</string>
+    <string name="home_panel_btn_play_iv">재생 버튼</string>
+    <string name="home_panel_album_info_tv">총 36곡 2020.06.05</string>
+    <string name="home_panel_album_img_iv">패널 앨범 이미지</string>
+    <string name="home_panel_album_title_tv">잠이 안온다</string>
+    <string name="home_panel_album_singer_tv">젠(zen)</string>
+
+    <string name="home_today_music_title_tv">오늘 발매 음악</string>
+    <string name="home_more_btn">더보기</string>
+    <string name="home_today_music_total_tv">종합</string>
+    <string name="home_today_music_domestic_tv">국내</string>
+    <string name="home_today_music_oversea_tv">해외</string>
+
+    <string name="home_album_img_iv">앨범 이미지</string>
+    <string name="home_album_play_iv">재생 버튼</string>
+    <string name="home_album_title_tv">LILAC</string>
+    <string name="home_album_singer_tv">아이유 (IU)</string>
+
+    <string name="home_daily_music_title_tv">매일 들어도 좋은 팟캐스트</string>
+    <string name="home_daily_music_album_img_iv">앨범 이미지</string>
+    <string name="home_daily_music_album_img_play_iv">재생 버튼</string>
+    <string name="home_daily_music_album_title_tv">제목</string>
+    <string name="home_daily_music_album_artist_tv">아티스트</string>
+
+    <string name="home_video_music_title_tv">비디오 콜랙션</string>
+    <string name="home_video_music_album_img_iv">앨범 이미지</string>
+    <string name="home_video_music_album_title_tv">제목</string>
+    <string name="home_video_music_album_artist_tv">아티스트</string>
+
+    <string name="home_banner_iv">배너 이미지</string>
+    <string name="home_btn_sns_facebook_iv">페이스북 공유 버튼</string>
+    <string name="home_btn_sns_twitter_iv">트위터 공유 버튼</string>
+    <string name="home_btn_sns_instagram_iv">인스타그램 공유 버튼</string>
+    <string name="home_btn_sns_youtube_iv">유튜브 공유 버튼</string>
+    <string name="home_ceo_info_tv">(주)드림어스컴퍼니 사업자 정보</string>
+
+    <string name="song_setting_ib">설정 버튼</string>
+    <string name="song_eq_ib">이퀄라이저 버튼</string>
+    <string name="song_down_ib">창 내리기 버튼</string>
+    <string name="song_more_ib">더보기 버튼</string>
+    <string name="song_singer_more_iv">아티스트 더보기 버튼</string>
+    <string name="song_album_iv">앨범 이미지</string>
+    <string name="song_music_lyrics1">나라는 꽃가루에</string>
+    <string name="song_music_lyrics2">눈이 따끔해 아야</string>
+    <string name="song_like_iv">곡 좋아요 버튼</string>
+    <string name="song_unlike_iv">곡 싫어요 버튼</string>
+    <string name="song_start_time_tv">00:00</string>
+    <string name="song_end_time_tv">01:00</string>
+    <string name="song_repeat_iv">곡 반복 버튼</string>
+    <string name="song_random_iv">곡 랜덤 버튼</string>
+    <string name="song_related_iv">연관곡 버튼</string>
+
+    <string name="album_like_iv">앨범 좋아요 버튼</string>
+    <string name="album_more_iv">앨범 더보기 버튼</string>
+    <string name="album_back_iv">뒤로가기 버튼</string>
+    <string name="album_music_title_tv">IU 5th Album \'LILAC\'</string>
+    <string name="album_music_title_info_tv">2021.03.25 | 정규 | 댄스 팝</string>
+    <string name="album_album_iv">앨범 이미지</string>
+    <string name="album_lp_iv">LP 이미지</string>
+    <string name="song_mix_tv">내 취향 MIX</string>
+
+    <string name="song_mixoff_tg">내 취향 MIX OFF 버튼</string>
+    <string name="song_mixon_tg">내 취향 MIX ON 버튼</string>
+    <string name="song_all_select">전체선택</string>
+    <string name="song_all_listen">전체 듣기</string>
+    <string name="song_list_order_1">01</string>
+    <string name="song_list_title_1">TITLE</string>
+    <string name="song_music_title_1">라일락</string>
+    <string name="song_singer_name">가수</string>
+    <string name="song_list_order_02">02</string>
+    <string name="song_music_title2">Flu</string>
+    <string name="song_list_order_3">03</string>
+    <string name="song_music_title_3">Coin</string>
+    <string name="song_list_order_4">04</string>
+    <string name="song_music_title_4">봄 안녕 봄</string>
+    <string name="song_list_order_5">05</string>
+    <string name="song_music_title_5">Celebrity</string>
+    <string name="song_list_order_6">06</string>
+    <string name="song_music_title_6">돌림노래 (Feat. DEAN)</string>
+
+    <string name="locker_title_tv">보관함</string>
+    <string name="saved_no_music_tv">저장한 곡이 없습니다.</string>
+
+</resources>

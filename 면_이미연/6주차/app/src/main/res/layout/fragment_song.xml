@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/song_mix_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textview_background_radius"
+                android:orientation="horizontal"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/song_mix_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/song_mix_tv"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/song_mixoff_tg"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/song_mixoff_tg"
+                    android:src="@drawable/btn_toggle_off" />
+
+                <ImageView
+                    android:id="@+id/song_mixon_tg"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/song_mixon_tg"
+                    android:src="@drawable/btn_toggle_on"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/song_all_select_iv"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/song_all_select"
+                android:src="@drawable/btn_playlist_select_off"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/song_mix_layout" />
+
+            <TextView
+                android:id="@+id/song_all_select_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/song_all_select"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/song_all_select_iv"
+                app:layout_constraintStart_toEndOf="@+id/song_all_select_iv"
+                app:layout_constraintTop_toTopOf="@+id/song_all_select_iv" />
+
+            <ImageView
+                android:id="@+id/song_all_listen_iv"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:contentDescription="@string/song_all_select"
+                android:src="@drawable/icon_browse_arrow_right"
+                app:layout_constraintBottom_toBottomOf="@+id/song_all_listen_tv"
+                app:layout_constraintEnd_toStartOf="@+id/song_all_listen_tv"
+                app:layout_constraintTop_toTopOf="@+id/song_all_listen_tv" />
+
+            <TextView
+                android:id="@+id/song_all_listen_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:text="@string/song_all_select"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="@+id/song_all_select_tv"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/song_all_select_tv" />
+
+            <LinearLayout
+                android:id="@+id/song_music_list_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/song_all_select_tv">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/song_lalac_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/song_list_order_tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/song_list_order_1"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/song_list_title_tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:background="@drawable/textview_background_select_color_radius"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:text="@string/song_list_title_1"
+                        android:textColor="@color/white"
+                        android:textSize="8sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_list_order_tv1"
+                        app:layout_constraintStart_toEndOf="@+id/song_list_order_tv1"
+                        app:layout_constraintTop_toTopOf="@+id/song_list_order_tv1" />
+
+                    <TextView
+                        android:id="@+id/song_music_title_tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/song_music_title_1"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_list_title_tv1"
+                        app:layout_constraintStart_toEndOf="@+id/song_list_title_tv1"
+                        app:layout_constraintTop_toTopOf="@+id/song_list_title_tv1" />
+
+                    <TextView
+                        android:id="@+id/song_singer_name_tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/song_singer_name"
+                        android:textSize="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/song_list_title_tv1"
+                        app:layout_constraintTop_toBottomOf="@+id/song_list_title_tv1" />
+
+                    <ImageView
+                        android:id="@+id/song_play_iv1"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:contentDescription="@string/home_album_play_iv"
+                        android:src="@drawable/btn_miniplayer_play"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_more_iv1"
+                        app:layout_constraintEnd_toStartOf="@+id/song_more_iv1"
+                        app:layout_constraintTop_toTopOf="@+id/song_more_iv1" />
+
+                    <ImageView
+                        android:id="@+id/song_more_iv1"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="15dp"
+                        android:contentDescription="@string/song_more_ib"
+                        android:src="@drawable/btn_player_more"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_singer_name_tv1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/song_music_title_tv1" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/song_flu_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/song_list_order_tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/song_list_order_02"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/song_music_title_tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/song_music_title2"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_list_order_tv2"
+                        app:layout_constraintStart_toEndOf="@+id/song_list_order_tv2"
+                        app:layout_constraintTop_toTopOf="@+id/song_list_order_tv2" />
+
+                    <TextView
+                        android:id="@+id/song_singer_name_tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/song_singer_name"
+                        android:textSize="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/song_music_title_tv2"
+                        app:layout_constraintTop_toBottomOf="@+id/song_music_title_tv2" />
+
+                    <ImageView
+                        android:id="@+id/song_play_iv2"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:contentDescription="@string/home_album_play_iv"
+                        android:src="@drawable/btn_miniplayer_play"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_more_iv2"
+                        app:layout_constraintEnd_toStartOf="@+id/song_more_iv2"
+                        app:layout_constraintTop_toTopOf="@+id/song_more_iv2" />
+
+                    <ImageView
+                        android:id="@+id/song_more_iv2"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="15dp"
+                        android:contentDescription="@string/song_more_ib"
+                        android:src="@drawable/btn_player_more"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_singer_name_tv2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/song_music_title_tv2" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/song_coin_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/song_list_order_tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/song_list_order_3"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/song_list_title_tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:background="@drawable/textview_background_select_color_radius"
+                        android:paddingStart="5dp"
+                        android:paddingEnd="5dp"
+                        android:text="@string/song_list_title_1"
+                        android:textColor="@color/white"
+                        android:textSize="8sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_list_order_tv3"
+                        app:layout_constraintStart_toEndOf="@+id/song_list_order_tv3"
+                        app:layout_constraintTop_toTopOf="@+id/song_list_order_tv3" />
+
+                    <TextView
+                        android:id="@+id/song_music_title_tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/song_music_title_3"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_list_title_tv3"
+                        app:layout_constraintStart_toEndOf="@+id/song_list_title_tv3"
+                        app:layout_constraintTop_toTopOf="@+id/song_list_title_tv3" />
+
+                    <TextView
+                        android:id="@+id/song_singer_name_tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/song_singer_name"
+                        android:textSize="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/song_list_title_tv3"
+                        app:layout_constraintTop_toBottomOf="@+id/song_list_title_tv3" />
+
+                    <ImageView
+                        android:id="@+id/song_play_iv3"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:contentDescription="@string/home_album_play_iv"
+                        android:src="@drawable/btn_miniplayer_play"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_more_iv3"
+                        app:layout_constraintEnd_toStartOf="@+id/song_more_iv3"
+                        app:layout_constraintTop_toTopOf="@+id/song_more_iv3" />
+
+                    <ImageView
+                        android:id="@+id/song_more_iv3"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="15dp"
+                        android:contentDescription="@string/song_more_ib"
+                        android:src="@drawable/btn_player_more"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_singer_name_tv3"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/song_music_title_tv3" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/song_spring_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/song_list_order_tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/song_list_order_4"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/song_music_title_tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/song_music_title_4"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_list_order_tv4"
+                        app:layout_constraintStart_toEndOf="@+id/song_list_order_tv4"
+                        app:layout_constraintTop_toTopOf="@+id/song_list_order_tv4" />
+
+                    <TextView
+                        android:id="@+id/song_singer_name_tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/song_singer_name"
+                        android:textSize="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/song_music_title_tv4"
+                        app:layout_constraintTop_toBottomOf="@+id/song_music_title_tv4" />
+
+                    <ImageView
+                        android:id="@+id/song_play_iv4"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:contentDescription="@string/home_album_play_iv"
+                        android:src="@drawable/btn_miniplayer_play"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_more_iv4"
+                        app:layout_constraintEnd_toStartOf="@+id/song_more_iv4"
+                        app:layout_constraintTop_toTopOf="@+id/song_more_iv4" />
+
+                    <ImageView
+                        android:id="@+id/song_more_iv4"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="15dp"
+                        android:contentDescription="@string/song_more_ib"
+                        android:src="@drawable/btn_player_more"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_singer_name_tv4"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/song_music_title_tv4" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/song_celebrity_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/song_list_order_tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/song_list_order_5"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/song_music_title_tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/song_music_title_5"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_list_order_tv5"
+                        app:layout_constraintStart_toEndOf="@+id/song_list_order_tv5"
+                        app:layout_constraintTop_toTopOf="@+id/song_list_order_tv5" />
+
+                    <TextView
+                        android:id="@+id/song_singer_name_tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/song_singer_name"
+                        android:textSize="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/song_music_title_tv5"
+                        app:layout_constraintTop_toBottomOf="@+id/song_music_title_tv5" />
+
+                    <ImageView
+                        android:id="@+id/song_play_iv5"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:contentDescription="@string/home_album_play_iv"
+                        android:src="@drawable/btn_miniplayer_play"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_more_iv5"
+                        app:layout_constraintEnd_toStartOf="@+id/song_more_iv5"
+                        app:layout_constraintTop_toTopOf="@+id/song_more_iv5" />
+
+                    <ImageView
+                        android:id="@+id/song_more_iv5"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="15dp"
+                        android:contentDescription="@string/song_more_ib"
+                        android:src="@drawable/btn_player_more"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_singer_name_tv5"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/song_music_title_tv5" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/song_sing_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/song_list_order_tv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/song_list_order_6"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/song_music_title_tv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/song_music_title_6"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_list_order_tv6"
+                        app:layout_constraintStart_toEndOf="@+id/song_list_order_tv6"
+                        app:layout_constraintTop_toTopOf="@+id/song_list_order_tv6" />
+
+                    <TextView
+                        android:id="@+id/song_singer_name_tv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/song_singer_name"
+                        android:textSize="10sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/song_music_title_tv6"
+                        app:layout_constraintTop_toBottomOf="@+id/song_music_title_tv6" />
+
+                    <ImageView
+                        android:id="@+id/song_play_iv6"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:contentDescription="@string/home_album_play_iv"
+                        android:src="@drawable/btn_miniplayer_play"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_more_iv6"
+                        app:layout_constraintEnd_toStartOf="@+id/song_more_iv6"
+                        app:layout_constraintTop_toTopOf="@+id/song_more_iv6" />
+
+                    <ImageView
+                        android:id="@+id/song_more_iv6"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginEnd="15dp"
+                        android:contentDescription="@string/song_more_ib"
+                        android:src="@drawable/btn_player_more"
+                        app:layout_constraintBottom_toBottomOf="@+id/song_singer_name_tv6"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/song_music_title_tv6" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
