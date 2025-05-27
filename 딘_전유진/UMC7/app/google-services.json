@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "159746447044",
+    "project_id": "umc7-291fa",
+    "storage_bucket": "umc7-291fa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159746447044:android:9dfd364f4a10ac27315b91",
+        "android_client_info": {
+          "package_name": "com.example.umc3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZSMt21SR7U95G5AQGNG2oAotb3eFnYxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
