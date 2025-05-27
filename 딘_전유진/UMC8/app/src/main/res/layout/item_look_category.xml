@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_category_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="카테고리"
+    android:textSize="14sp"
+    android:background="@drawable/textview_background_radius"
+    android:padding="8dp"
+    android:layout_marginEnd="8dp"
+    android:textColor="#000000" />
